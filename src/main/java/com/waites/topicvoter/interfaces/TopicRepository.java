@@ -6,5 +6,5 @@ import java.util.List;
 
 public interface TopicRepository {
     List<Topic> findAll();
-
+    void add(String title, String description);
 }
